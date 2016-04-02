@@ -3,7 +3,8 @@
 To build recovery:
 ------------------
 
-. build/envsetup.sh
-lunch (devicename)
-make installclean
-time make recoveryimage showcommands
+
+    . build/envsetup.sh
+    lunch (devicename)
+    make installclean
+    time make recoveryimage showcommands
