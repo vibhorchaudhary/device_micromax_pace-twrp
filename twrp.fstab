@@ -3,5 +3,7 @@
 /cache        ext4  /dev/block/bootdevice/by-name/cache
 /boot         emmc  /dev/block/bootdevice/by-name/boot
 /recovery     emmc  /dev/block/bootdevice/by-name/recovery
+/frp          emmc  /dev/block/bootdevice/by-name/config
+/misc         emmc  /dev/block/bootdevice/by-name/misc 
 
 /external_sd  auto  /dev/block/mmcblk1p1  /dev/block/mmcblk1  flags=display="Micro SDcard";storage;wipeingui;removable;andsec
